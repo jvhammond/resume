@@ -1,0 +1,26 @@
+{
+  "name": "resume",
+  "version": "0.1.0",
+  "description": "Resume",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node ./server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jvhammond/resume.git"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "Jeff Hammond",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jvhammond/resume/issues"
+  },
+  "homepage": "https://github.com/jvhammond/resume",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
