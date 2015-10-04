@@ -1,6 +1,6 @@
 {
   "name": "resume",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Resume",
   "main": "server/index.js",
   "scripts": {
@@ -22,5 +22,14 @@
   "homepage": "https://github.com/jvhammond/resume",
   "dependencies": {
     "express": "^4.13.3"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.11.1",
+    "gulp-istanbul": "^0.8.1",
+    "gulp-lintspaces": "^0.2.3",
+    "gulp-livereload": "^3.8.1",
+    "gulp-load-plugins": "^0.10.0",
+    "lodash": "^3.7.0"
   }
 }

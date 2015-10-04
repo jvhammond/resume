@@ -1,0 +1,106 @@
+html {
+	color: #eee;
+	background: #000;
+}
+body {
+	color : #eee;
+	background: #000;
+}
+.hrule {
+	border-bottom: 1px dotted #aaa;
+	margin-bottom: 10px;
+}
+.hrule2 {
+	border-bottom: 1px dotted #aaa;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.header {
+	padding-bottom: 12px;
+}
+.header h1 {
+	font-size: 45px;
+}
+.header h2 {
+	font-size: 22px;
+}
+.info {
+	float: right;
+	padding-top: 20px;
+}
+.info h2 {
+	margin: 5px 5px 5px 5px;
+	padding: 5px 5px 5px 5px;
+	background: #555;
+	font-size: 15px;
+}
+.info a {
+	color: #eee;
+}
+.info p {
+	font-size: 15px;
+	padding-left: 5px;
+}
+.left h2 {
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: italic;
+}
+.profile p {
+	font-size: 17px;
+}
+.talent h2 {
+	margin-top: 0px;
+	font-size: 17px;
+}
+.talent p {
+	font-size: 13px;
+}
+.talent ul {
+	margin: 0px;
+	padding: 0px;
+}
+.talent li {
+	font-size: 13px;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+.job {
+	margin-bottom: 10px;
+}
+.job h2 {
+	margin-top: 0px;
+	width: 70%;
+	font-size: 17px;
+	margin-bottom: 8px;
+}
+.job h3 {
+	margin-top: 0px;
+	font-style: italic;
+	font-size: 13px;
+}
+.job h4 {
+	float: right;
+	position: relative;
+	top: -50px;
+	margin-bottom: -20px;
+	font-size: 17px;
+	margin-top: 0px;
+}
+.job p {
+	font-size: 13px;
+}
+.footer {
+	text-align: center;
+}
+.footer p {
+	font-size: 10px;
+}
+@page {
+	size: A3;
+	margin-left: -5cm;
+	margin-right: -5cm;
+}
