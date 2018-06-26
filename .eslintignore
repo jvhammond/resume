@@ -1,0 +1,6 @@
+!.eslintrc.js
+.build
+.nvm
+node_modules
+tmp*
+tools
