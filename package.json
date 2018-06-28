@@ -4,7 +4,10 @@
   "description": "Resume",
   "main": "server/index.js",
   "scripts": {
+    "clean": "rimraf dist",
     "start": "node ./server",
+    "build": "NODE_ENV=production npm run clean && webpack -p",
+    "server": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
