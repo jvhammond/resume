@@ -1,20 +1,13 @@
 module.exports = {
-    parser: 'babel-eslint',
-    parserOptions: {
-        ecmaVersion: 8
-    },
     plugins: [
         'import',
-        'react',
         'security',
         'lodash',
     ],
     extends: [
         'eslint:recommended',
         'plugin:import/errors',
-        'plugin:import/warnings',
-        'plugin:react/recommended',
-        //'plugin:lodash/recommended',
+        'plugin:import/warnings'
     ],
     env: {
         node: true,
@@ -42,7 +35,7 @@ module.exports = {
         'lodash/prefer-filter': 'off',              // 1
         'lodash/prefer-map': 'off',                 // 1
         'max-len': 'off',
-        'no-console': 'error',
+        'no-console': 'off',
         'no-lonely-if': 'error',
         'no-spaced-func': 'error',
         'no-unused-vars': ['error', { vars: 'all', args: 'none' }],
